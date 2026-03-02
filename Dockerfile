@@ -1,1 +1,19 @@
-404: Not Found
+FROM python:3.10.8-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+# Copy project files
+COPY . .
+
+# Start application
+CMD gunicorn app:app --bind 0.0.0.0:$PORT & python3 bot.py
+
+
+# MyselfNeon
+# Don't Remove Credit 🥺
+# Telegram Channel @NeonFiles
