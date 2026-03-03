@@ -83,12 +83,11 @@ PRO_PLAN_NAME = os.environ.get("PRO_PLAN_NAME", "PRO PLAN")
 PRO_PLAN_QR_IMAGE = os.environ.get("PRO_PLAN_QR_IMAGE", "")
 PRO_PLAN_DETAILS = os.environ.get(
     "PRO_PLAN_DETAILS",
-    "🏅 PRO PLAN – ₹100\n\n"
-    "👑 PRO GOLD PLAN – ₹200\n\n"
+    "👑 PRO PLAN – ₹100\n\n"
     "🔥 Uʟᴛɪᴍᴀᴛᴇ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss:\n\n"
     "✅ Nᴏ Cᴏᴏʟᴅᴏᴡɴ Tɪᴍᴇ\n"
-    "✅ Nᴏ Vᴇʀɪғɪᴄᴀᴛɪᴏɴ Rᴇǫᴜɪʀᴇᴅ\n"
-    "✅ Uɴʟɪᴍɪᴛᴇᴅ Bᴀᴛᴄʜ Mᴇssᴀɢᴇ Sᴀᴠɪɴɢ\n"
+    "✅ Vᴇʀɪғɪᴄᴀᴛɪᴏɴ Rᴇǫᴜɪʀᴇᴅ\n"
+    "✅ 350 Bᴀᴛᴄʜ Mᴇssᴀɢᴇ Sᴀᴠɪɴɢ\n"
     "✅ Fᴀsᴛᴇsᴛ Pʀᴏᴄᴇssɪɴɢ Sᴘᴇᴇᴅ\n"
     "✅ Fᴜʟʟ Bᴏᴛ Aᴄᴄᴇss\n"
     "✅ Pʀɪᴏʀɪᴛʏ Sᴜᴘᴘᴏʀᴛ\n\n"
