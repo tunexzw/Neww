@@ -250,7 +250,7 @@ async def send_start(client: Client, message: Message):
             InlineKeyboardButton("💎 Premium Plans", callback_data="premium_btn")
         ],
         [
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇ 🔥', url='https://t.me/NeonFiles'),
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇ 🔥', url='https://t.me/TuneBots'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 😎', callback_data="about_btn")
         ]
     ]
@@ -258,9 +258,9 @@ async def send_start(client: Client, message: Message):
 
     start_text = (
         f"<blockquote>**__Yoo !! {message.from_user.mention}__ 😇**</blockquote>\n"
-        "<blockquote>**__I’m Save Restricted Content Bot. I Can Help You Unlock And Save Restricted Posts From Telegram By Their Links.__**\n\n"
+        "<blockquote>**__I’m Pro Save Restricted Content Bot. I Can Help You Unlock And Save Restricted Posts From Telegram By Their Links.__**\n\n"
         "**__🔑 Please /login First — This Is Required For Downloading Content.__**</blockquote>\n"
-        "<blockquote>**__Try new @SaveRestrictions_oBot__**</blockquote>"
+        "<blockquote>**__Try new Free @SaveRestrictedContentXProBot__**</blockquote>"
     )
 
     if START_PIC:
@@ -720,20 +720,20 @@ async def button_callbacks(client: Client, callback_query):
         me = await client.get_me()
         about_text = (
             "<b><blockquote>‣ 📝 𝐌𝐘 𝐃𝐄𝐓𝐀𝐈𝐋𝐒</blockquote>\n"
-            "<blockquote><i>• Mʏ Nᴀᴍᴇ : <a href='https://t.me/SaveRestriction_oBot'>Save Restrictions</a>\n"
-            "• Mʏ Bᴇsᴛ Fʀɪᴇɴᴅ : <a href='tg://settings'>Tʜɪs Sᴡᴇᴇᴛɪᴇ ❤️</a>\n"
-            "• Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/MyselfNeon'>@MʏsᴇʟғNᴇᴏɴ</a>\n"
-            "• Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>\n"
-            "• Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a>\n"
-            "• DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a>\n"
-            "• Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Hᴇʀᴏᴋᴜ</a>\n"
-            "• Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ𝟸.𝟽 [Sᴛᴀʙʟᴇ]</i></b></blockquote>"
+            "<blockquote><i>• Mʏ Nᴀᴍᴇ : <a href='https://t.me/SaveRestrictedContentProBot'>Save Restrictions</a>\n"
+            "• Mᴏʀᴇ Bᴏᴛs : <a href='https://t.me/TuneBots/9'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n"
+            "• Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/SnapLoverXBot'>sɴᴀᴘ ʟᴏᴠᴇʀ</a>\n"
+            "• Sɴᴀᴘ Lᴏᴠᴇʀs : <a href='https://t.me/Snap_Lover8'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n"
+            "• Nᴇᴡs Rᴏᴏᴍ : <a href='https://t.me/+NbpXnldC3AI2NTU1'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n"
+            "• BᴀᴄᴋUᴘ : <a href='https://t.me/+TvUmstJYM1I3ZGM1'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n"
+            "• Sɴᴀᴘ Lᴏᴠᴇʀ Dᴀɪʟʏ : <a href='https://t.me/+5000jEnshVVmYzg1'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n"
+            "• Sᴛᴀᴛᴜs : <a href='https://newweb-95to.onrender.com/'>Sɴᴀᴘ Lᴏᴠᴇʀs</a></i></b></blockquote>"
         )
 
         about_buttons = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🔊", url="https://t.me/+o1s-8MppL2syYTI9"),
-                InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 💡", url="https://myselfneon.github.io/neon/")
+                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🔊", url="https://newweb-95to.onrender.com/"),
+                InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 💡", url="https://zq1.lovable.app/ODYpFE")
             ],
             [
                 InlineKeyboardButton("Cʟᴏsᴇ ❌", callback_data="close_btn"),
@@ -759,7 +759,7 @@ async def button_callbacks(client: Client, callback_query):
             InlineKeyboardButton("💎 Premium Plans", callback_data="premium_btn")
         ],
             [
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/NeonFiles"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/TuneBots"),
                 InlineKeyboardButton("Aʙᴏᴜᴛ 😎", callback_data="about_btn")
             ]
         ])
@@ -768,9 +768,9 @@ async def button_callbacks(client: Client, callback_query):
             message_id=message.id,
             text=(
                 f"<blockquote>**__Yoo !! {callback_query.from_user.mention}__ 👋**</blockquote>\n"
-                "<blockquote>**__I’m Save Restricted Content Bot. I Can Help You Unlock And Save Restricted Posts From Telegram By Their Links.__**\n\n"
+                "<blockquote>**__I’m Pro Save Restricted Content Bot. I Can Help You Unlock And Save Restricted Posts From Telegram By Their Links.__**\n\n"
                 "**__🔑 Please /login First — This Is Required For Downloading Content.__**</blockquote>\n"
-                "<blockquote>**__Try new @SaveRestrictions_oBot__**</blockquote>"
+                "<blockquote>**__Try new Free @SaveRestrictedContentXProBot__**</blockquote>"
             ),
             reply_markup=start_buttons
         )
