@@ -83,7 +83,7 @@ PRO_PLAN_NAME = os.environ.get("PRO_PLAN_NAME", "PRO PLAN")
 PRO_PLAN_QR_IMAGE = os.environ.get("PRO_PLAN_QR_IMAGE", "")
 PRO_PLAN_DETAILS = os.environ.get(
     "PRO_PLAN_DETAILS",
-    "👑 PRO PLAN – ₹100\n\n"
+    "<blockquote>👑 PRO PLAN – ₹100\n\n"
     "🔥 Uʟᴛɪᴍᴀᴛᴇ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss:\n\n"
     "✅ Nᴏ Cᴏᴏʟᴅᴏᴡɴ Tɪᴍᴇ\n"
     "✅ Vᴇʀɪғɪᴄᴀᴛɪᴏɴ Rᴇǫᴜɪʀᴇᴅ\n"
@@ -95,14 +95,14 @@ PRO_PLAN_DETAILS = os.environ.get(
     "UPI ID: luciferjaat@ptyes\n"
     "Pᴀʏ ᴜsɪɴɢ UPI / GPᴀʏ / PʜᴏɴᴇPᴇ / Pᴀʏᴛᴍ\n\n"
     "📌 Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ:\n"
-    "Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴsʜᴏᴛ ᴛᴏ Aᴅᴍɪɴ ғᴏʀ Iɴsᴛᴀɴᴛ Aᴄᴛɪᴠᴀᴛɪᴏɴ."
+    "Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴsʜᴏᴛ ᴛᴏ Aᴅᴍɪɴ ғᴏʀ Iɴsᴛᴀɴᴛ Aᴄᴛɪᴠᴀᴛɪᴏɴ.</blockquote>"
 )
 
 PRO_GOLD_PLAN_NAME = os.environ.get("PRO_GOLD_PLAN_NAME", "PRO GOLD PLAN")
 PRO_GOLD_PLAN_QR_IMAGE = os.environ.get("PRO_GOLD_PLAN_QR_IMAGE", "")
 PRO_GOLD_PLAN_DETAILS = os.environ.get(
     "PRO_GOLD_PLAN_DETAILS",
-    "👑 PRO GOLD PLAN – ₹200\n\n"
+    "<blockquote>👑 PRO GOLD PLAN – ₹200\n\n"
     "🔥 Uʟᴛɪᴍᴀᴛᴇ Pʀᴇᴍɪᴜᴍ Aᴄᴄᴇss:\n\n"
     "✅ Nᴏ Cᴏᴏʟᴅᴏᴡɴ Tɪᴍᴇ\n"
     "✅ Nᴏ Vᴇʀɪғɪᴄᴀᴛɪᴏɴ Rᴇǫᴜɪʀᴇᴅ\n"
@@ -114,7 +114,7 @@ PRO_GOLD_PLAN_DETAILS = os.environ.get(
     "UPI ID: luciferjaat@ptyes\n"
     "Pᴀʏ ᴜsɪɴɢ UPI / GPᴀʏ / PʜᴏɴᴇPᴇ / Pᴀʏᴛᴍ\n\n"
     "📌 Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ:\n"
-    "Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴsʜᴏᴛ ᴛᴏ Aᴅᴍɪɴ ғᴏʀ Iɴsᴛᴀɴᴛ Aᴄᴛɪᴠᴀᴛɪᴏɴ."
+    "Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴsʜᴏᴛ ᴛᴏ Aᴅᴍɪɴ ғᴏʀ Iɴsᴛᴀɴᴛ Aᴄᴛɪᴠᴀᴛɪᴏɴ.</blockquote>"
 )
 
 PREMIUM_CONTACT_BUTTON_TEXT = os.environ.get("PREMIUM_CONTACT_BUTTON_TEXT", "📞 Contact Admin")
