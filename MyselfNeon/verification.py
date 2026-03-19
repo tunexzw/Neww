@@ -4,7 +4,7 @@
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import VERIFY, VERIFY_TUTORIAL, VERIFY_PIC
+from config import VERIFY, VERIFY_TUTORIAL, VERIFY_PIC, KEEP_ALIVE_URL
 from database.db import db
 from MyselfNeon.verify import get_token, check_verification
 
@@ -25,11 +25,8 @@ async def verify_command_handler(bot, message):
 
     msg = await message.reply("<b>Please wait, generating your verification link...</b>")
 
-    bot_info = await bot.get_me()
-    start_link = f"https://t.me/{bot_info.username}?start="
-
     try:
-        verify_url = await get_token(bot, message.from_user.id, start_link)
+        verify_url = await get_token(bot, message.from_user.id, KEEP_ALIVE_URL)
         buttons = [
             [InlineKeyboardButton("🔗 Click Here To Verify", url=verify_url)],
             [InlineKeyboardButton("❓ How To Verify", url=VERIFY_TUTORIAL)],
