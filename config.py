@@ -38,7 +38,7 @@ DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", ""))
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
 
 # Keep-Alive URL
-KEEP_ALIVE_URL = os.environ.get("KEEP_ALIVE_URL", "https://snaplover-c0ft.onrender.com")
+KEEP_ALIVE_URL = os.environ.get("KEEP_ALIVE_URL", "https://neww-xvps.onrender.com/")
 
 # Start pic on /start 
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/VchKdpT7/bb96e5669bb2.jpg")
