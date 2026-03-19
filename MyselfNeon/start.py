@@ -19,7 +19,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated, UserAlreadyParticipant, InviteHashExpired, UsernameNotOccupied, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, MessageEntity
 from config import (
-    API_ID, API_HASH, ERROR_MESSAGE, VERIFY_TUTORIAL, START_PIC, DUMP_CHANNEL,
+    API_ID, API_HASH, ERROR_MESSAGE, VERIFY_TUTORIAL, START_PIC, DUMP_CHANNEL, KEEP_ALIVE_URL,
     FREE_SAVE_COOLDOWN_SECONDS, PRO_DAILY_BATCH_LIMIT, FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL_URL,
     FORCE_SUB_PIC, BYPASS_ALERT_PIC, VERIFY_PIC, AUTO_DELETE_SECONDS
 )
@@ -662,12 +662,9 @@ async def button_callbacks(client: Client, callback_query):
         # Acknowledge the callback immediately to stop the spinning
         await callback_query.answer("Generating link...", show_alert=False)
         
-        bot_info = await client.get_me()
-        start_link = f"https://t.me/{bot_info.username}?start="
-        
         try:
             # Generate the token and short link
-            verify_url = await get_token(client, callback_query.from_user.id, start_link)
+            verify_url = await get_token(client, callback_query.from_user.id, KEEP_ALIVE_URL)
             
             buttons = [
                 [InlineKeyboardButton("🔗 Click Here To Verify", url=verify_url)],
